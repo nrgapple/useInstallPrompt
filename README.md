@@ -19,7 +19,7 @@ import React from "react"
 import useInstallPrompt from "use-install-prompt"
 
 const App: React.FC = () => {
-  const [prompt, promptToInstall] = useInstallPromopt()
+  const [prompt, promptToInstall] = useInstallPrompt()
 
   return prompt ? (
     <button onClick={promptToInstall} />
